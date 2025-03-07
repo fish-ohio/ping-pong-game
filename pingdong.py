@@ -28,7 +28,7 @@ class Player(GameSprite):
         if keys[K_w] and self.rect.y > 5:
             self.rect.y -= self.speed
         if keys[K_s] and self.rect.y < win_height - 80:
-            self.rect.y +- self.speed
+            self.rect.y += self.speed
 
 
 back = (200, 255, 255) #background color (background)
